@@ -7,6 +7,7 @@ from pybrain.supervised.trainers import BackpropTrainer
 import cv2
 
 def loadImage(path):
+    path = "testimg/"+path
     im = cv2.imread(path)
     return flatten(im)
 
@@ -25,6 +26,7 @@ if __name__ == "__main__":
 
     net = buildNetwork(len(t), len(t), 1)
     ds = SupervisedDataSet(len(t), 1)
+
     ds.addSample(loadImage('a.png'),(1,))
     ds.addSample(loadImage('b.png'),(2,))
     ds.addSample(loadImage('c.png'),(3,))
@@ -33,9 +35,15 @@ if __name__ == "__main__":
     trainer = BackpropTrainer(net, ds)
     error = 10
     iteration = 0
-    while error > 0.001:
+    while error > 0.000000001:
         error = trainer.train()
         iteration += 1
         print "Iteration: {0} Error {1}".format(iteration, error)
 
-    print "\nResult: ", net.activate(loadImage('b.png'))
+    print "\nResult: 1", net.activate(loadImage('a.png'))
+    print "\nResult: 2", net.activate(loadImage('b.png'))
+    print "\nResult: 3", net.activate(loadImage('c.png'))
+    print "\nResult: 4", net.activate(loadImage('d.png'))
+    print "\nResult: 1", net.activate(loadImage('a.png'))
+    print "\nResult: 1", net.activate(loadImage('a.png'))
+    print "\nResult: 2", net.activate(loadImage('b.png'))
