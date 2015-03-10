@@ -1,41 +1,38 @@
 #!/usr/bin/python
 # (C) JACK CONCANON
 
+
+import idx2numpy as idx2np
+import numpy as np
 from pybrain.datasets.supervised import SupervisedDataSet
 from pybrain.tools.shortcuts import buildNetwork
 from pybrain.supervised.trainers import BackpropTrainer
-import cv2
 
-def loadImage(path):
-    im = cv2.imread(path)
-    return flatten(im)
 
-def flatten(x):
-    result = []
-    for el in x:
-        if hasattr(el, "__iter__") and not isinstance(el, basestring):
-            result.extend(flatten(el))
-        else:
-            result.append(el)
-    return result
+def loadImages(pathImg, pathName):
+  npImg = idx2np.convert_from_file(pathImg)
+  npNames = idx2np.convert_from_file(pathName)
+  return (npImg, npNames)
+
 
 if __name__ == "__main__":
 
-    t = loadImage('a.png')
+  (images, names) = loadImages("testimg/t10k-images-idx3-ubyte", "testimg/t10k-labels-idx1-ubyte")
+  shape = images.shape
+  size = shape[1] * shape[2]
+  net = buildNetwork(size, size, 1)
+  ds = SupervisedDataSet(size, 1)
 
-    net = buildNetwork(len(t), len(t), 1)
-    ds = SupervisedDataSet(len(t), 1)
-    ds.addSample(loadImage('a.png'),(1,))
-    ds.addSample(loadImage('b.png'),(2,))
-    ds.addSample(loadImage('c.png'),(3,))
-    ds.addSample(loadImage('d.png'),(4,))
+  for i in range(0):
+    ds.addSample(images[i].flatten(), (names[i],))
 
-    trainer = BackpropTrainer(net, ds)
-    error = 10
-    iteration = 0
-    while error > 0.001:
-        error = trainer.train()
-        iteration += 1
-        print "Iteration: {0} Error {1}".format(iteration, error)
+  print "ready to train"
+  trainer = BackpropTrainer(net, ds)
+  error = 10
+  iteration = 0
+  while error > 0.001:
+    error = trainer.train()
+    iteration += 1
+    print "Iteration: {0} Error {1}".format(iteration, error)
 
-    print "\nResult: ", net.activate(loadImage('b.png'))
+  print "\nResult: {0} Actual {1} ".format(net.activate(images[500].flatten()), names[500])
