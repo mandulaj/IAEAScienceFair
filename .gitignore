@@ -2,3 +2,4 @@ node_modules
 data
 *.gz
 *.pickle
+.DS_Store
