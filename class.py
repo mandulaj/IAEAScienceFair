@@ -25,7 +25,6 @@ def get_labeled_data(picklename, samples):
     """
     if os.path.isfile('%s.pickle' % picklename):
         data = pickle.load(open('%s.pickle' % picklename))
-        print "Pickle"
     else:
         images = inp.convert_from_file("testimg/t10k-images-idx3-ubyte")[:samples]
         labels = inp.convert_from_file("testimg/t10k-labels-idx1-ubyte")[:samples]
@@ -54,8 +53,8 @@ def classify(data, split, HIDDEN_NEURONS, MOMENTUM, WEIGHTDECAY,
         alldata.addSample(ravel(data['images'][i]), [data['labels'][i]])
 
     trndata, tstdata = alldata.splitWithProportion(split)
-    print "Train data %4d" % len(trndata)
-    print "Test data %4d" % len(tstdata)
+    print "Train dataset: %4d" % len(trndata)
+    print "Test dataset: %4d" % len(tstdata)
     # This is necessary, but I don't know why
     # See http://stackoverflow.com/q/8154674/562769
     trndata._convertToOneOfMany()
@@ -75,9 +74,7 @@ def classify(data, split, HIDDEN_NEURONS, MOMENTUM, WEIGHTDECAY,
         tstresult = percentError(trainer.testOnClassData(
                                  dataset=tstdata), tstdata['class'])
 
-        print("epoch: %4d" % trainer.totalepochs,
-                     "  train error: %5.2f%%" % trnresult,
-                     "  test error: %5.2f%%" % tstresult)
+        print "Epoch %4d" % trainer.totalepochs + ",  Train error: %5.2f%%" % trnresult + ",  Test error: %5.2f%%" % tstresult
     return net
 
 if __name__ == '__main__':
@@ -113,7 +110,21 @@ if __name__ == '__main__':
                         help="percentage used for training")
     args = parser.parse_args()
 
-    print("Get datasets")
+    print ""
+    print "Starting Neural network with the following options:"
+    print ""
+    print "# Samples: %4d" % args.samples
+    print "Training split: %.4f" % args.split
+    print "Hidden Neurons: %4d" % args.hidden_neurons
+    print "Epochs: %4d" % args.epochs
+    print "Weight-decay: %.4f" % args.weightdecay
+    print "Momentum: %.4f" % args.momentum
+    print "Learning rate: %.4f" % args.learning_rate
+    print "Learning rate decay: %.4f" % args.lrdecay
+    print "Network Output: %s" % args.file
+    print ""
+
+    print("Getting dataset")
     data = get_labeled_data('data', args.samples)
     print("Got %i datasets." % len(data['images']))
     net = classify(data, args.split, args.hidden_neurons, args.momentum,
