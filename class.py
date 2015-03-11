@@ -11,70 +11,27 @@ from pybrain.utilities import percentError
 from pybrain.tools.shortcuts import buildNetwork
 from pybrain.supervised.trainers import BackpropTrainer
 from pybrain.structure.modules import SoftmaxLayer
+from pybrain.tools.xml.networkwriter import NetworkWriter
+from pybrain.tools.xml.networkreader import NetworkReader
 
 from argparse import ArgumentParser
 import os.path
 import cPickle as pickle
 import idx2numpy as inp
 
-def get_labeled_data(imagefile, labelfile, picklename, rang):
+def get_labeled_data(picklename, samples):
     """Read input-vector (image) and target class (label, 0-9) and return
        it as list of tuples.
     """
     if os.path.isfile('%s.pickle' % picklename):
         data = pickle.load(open('%s.pickle' % picklename))
+        print "Pickle"
     else:
-    #     # Open the images with gzip in read binary mode
-    #     images = gzip.open(imagefile, 'rb')
-    #     labels = gzip.open(labelfile, 'rb')
-    #
-    #     # Read the binary data
-    #
-    #     # We have to get big endian unsigned int. So we need '>I'
-    #
-    #     # Get metadata for images
-    #     images.read(4)  # skip the magic_number
-    #     number_of_images = images.read(4)
-    #     number_of_images = unpack('>I', number_of_images)[0]
-    #     rows = images.read(4)
-    #     rows = unpack('>I', rows)[0]
-    #     cols = images.read(4)
-    #     cols = unpack('>I', cols)[0]
-    #
-    #     # Get metadata for
-    #     labels.read(4)  # skip the magic_number
-    #     N = labels.read(4)
-    #     N = unpack('>I', N)[0]
-    #
-    #     if number_of_images != N:
-    #         raise Exception('The number of labels did not match '
-    #                         'the number of images.')
-    #
-    #     # Get the data
-    #     N = 1
-    #     x = zeros((N, rows, cols), dtype=uint8)  # Initialize numpy array
-    #     y = zeros((N, 1), dtype=uint8)  # Initialize numpy array
-    #     for i in range(N):
-    #         if i % 1000 == 0:
-    #             print("i: %i" % i)
-    #         for row in range(rows):
-    #             for col in range(cols):
-    #                 tmp_pixel = images.read(1)  # Just a single byte
-    #                 tmp_pixel = unpack('>B', tmp_pixel)[0]
-    #                 x[i][row][col] = (float(tmp_pixel) // 255.0)
-    #         tmp_label = labels.read(1)
-    #         y[i] = unpack('>B', tmp_label)[0]
-    #     data = {'x': x, 'y': y, 'rows': rows, 'cols': cols}
-    #     print data['x'][0]
-    #     pickle.dump(data, open("%s.pickle" % picklename, "wb"))
-    # return data
-
-        data = {'x': inp.convert_from_file("testimg/t10k-images-idx3-ubyte")[rang[0]:rang[1]],
-            "y": inp.convert_from_file("testimg/t10k-labels-idx1-ubyte")[rang[0]:rang[1]],
-            "rows": 28, "cols": 28}
+        images = inp.convert_from_file("testimg/t10k-images-idx3-ubyte")[:samples]
+        labels = inp.convert_from_file("testimg/t10k-labels-idx1-ubyte")[:samples]
+        data = {"images": images, "labels": labels}
         pickle.dump(data, open("%s.pickle" % picklename, "wb"))
-        return data
-
+    return data
 
 
 
@@ -85,28 +42,29 @@ def view_image(image, label=""):
     show()
 
 
-def classify(training, testing, HIDDEN_NEURONS, MOMENTUM, WEIGHTDECAY,
+def classify(data, split, HIDDEN_NEURONS, MOMENTUM, WEIGHTDECAY,
              LEARNING_RATE, LEARNING_RATE_DECAY, EPOCHS):
-    INPUT_FEATURES = testing['rows'] * testing['cols']
+    INPUT_FEATURES = data['images'].shape[1] * data['images'].shape[2]
     print("Input features: %i" % INPUT_FEATURES)
     CLASSES = 10
-    trndata = ClassificationDataSet(INPUT_FEATURES, 1, nb_classes=CLASSES)
-    tstdata = ClassificationDataSet(INPUT_FEATURES, 1, nb_classes=CLASSES)
+    alldata = ClassificationDataSet(INPUT_FEATURES, 1, nb_classes=CLASSES)
 
-    for i in range(len(testing['x'])):
-        tstdata.addSample(ravel(testing['x'][i]), [testing['y'][i]])
-    for i in range(len(training['x'])):
-        trndata.addSample(ravel(training['x'][i]), [training['y'][i]])
 
+    for i in range(len(data["images"])):
+        alldata.addSample(ravel(data['images'][i]), [data['labels'][i]])
+
+    trndata, tstdata = alldata.splitWithProportion(split)
+    print "Train data %4d" % len(trndata)
+    print "Test data %4d" % len(tstdata)
     # This is necessary, but I don't know why
     # See http://stackoverflow.com/q/8154674/562769
     trndata._convertToOneOfMany()
     tstdata._convertToOneOfMany()
 
-    fnn = buildNetwork(trndata.indim, HIDDEN_NEURONS, trndata.outdim,
+    net = buildNetwork(trndata.indim, HIDDEN_NEURONS, trndata.outdim,
                        outclass=SoftmaxLayer)
 
-    trainer = BackpropTrainer(fnn, dataset=trndata, momentum=MOMENTUM,
+    trainer = BackpropTrainer(net, dataset=trndata, momentum=MOMENTUM,
                               verbose=True, weightdecay=WEIGHTDECAY,
                               learningrate=LEARNING_RATE,
                               lrdecay=LEARNING_RATE_DECAY)
@@ -120,7 +78,7 @@ def classify(training, testing, HIDDEN_NEURONS, MOMENTUM, WEIGHTDECAY,
         print("epoch: %4d" % trainer.totalepochs,
                      "  train error: %5.2f%%" % trnresult,
                      "  test error: %5.2f%%" % tstresult)
-    return fnn
+    return net
 
 if __name__ == '__main__':
     parser = ArgumentParser()
@@ -130,7 +88,7 @@ if __name__ == '__main__':
                         default=200,
                         help="number of neurons in the hidden layer")
     parser.add_argument("-e", metavar="EPOCHS", type=int,
-                        dest="epochs", default=900,
+                        dest="epochs", default=200,
                         help="number of epochs to learn")
     parser.add_argument("-d", metavar="W", type=float, dest="weightdecay",
                         default=0.01,
@@ -144,15 +102,24 @@ if __name__ == '__main__':
     parser.add_argument("-ld", metavar="ALPHA", type=float, dest="lrdecay",
                         default=1,
                         help="learning rate decay")
+    parser.add_argument("-f", metavar="FILE", type=str, dest="file",
+                        default="network.xml",
+                        help="network export name")
+    parser.add_argument("-s", metavar="SAMPLES", type=int, dest="samples",
+                        default=10000,
+                        help="number of samples to use")
+    parser.add_argument("-sp", metavar="SPLIT", type=float, dest="split",
+                        default=0.7,
+                        help="percentage used for training")
     args = parser.parse_args()
 
-    print("Get testset")
-    testing = get_labeled_data('t10k-images-idx3-ubyte.gz',
-                               't10k-labels-idx1-ubyte.gz', 'testing', (0,1000))
-    print("Got %i testing datasets." % len(testing['x']))
-    print("Get trainingset")
-    training = get_labeled_data('train-images-idx3-ubyte.gz',
-                                'train-labels-idx1-ubyte.gz', 'training',(0,3000))
-    print("Got %i training datasets." % len(training['x']))
-    classify(training, testing, args.hidden_neurons, args.momentum,
+    print("Get datasets")
+    data = get_labeled_data('data', args.samples)
+    print("Got %i datasets." % len(data['images']))
+    net = classify(data, args.split, args.hidden_neurons, args.momentum,
              args.weightdecay, args.learning_rate, args.lrdecay, args.epochs)
+
+    NetworkWriter.writeToFile(net, args.file)
+
+
+
