@@ -26,11 +26,11 @@ def get_labeled_data(picklename, samples):
     if os.path.isfile('%s.pickle' % picklename):
         data = pickle.load(open('%s.pickle' % picklename))
     else:
-        images = inp.convert_from_file("testimg/t10k-images-idx3-ubyte")[:samples]
-        labels = inp.convert_from_file("testimg/t10k-labels-idx1-ubyte")[:samples]
+        images = inp.convert_from_file("testimg/t10k-images-idx3-ubyte")
+        labels = inp.convert_from_file("testimg/t10k-labels-idx1-ubyte")
         data = {"images": images, "labels": labels}
         pickle.dump(data, open("%s.pickle" % picklename, "wb"))
-    return data
+    return {"images": data["images"][:samples], "labels": data["labels"][:samples]}
 
 
 
