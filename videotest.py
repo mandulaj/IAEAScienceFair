@@ -4,13 +4,12 @@ from matplotlib import pyplot as plt
 from matplotlib import animation
 
 cap = cv2.VideoCapture(0)
-flop = 0
+
 while True:
-  flop += 1
   ret, frame = cap.read()
   gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
   cv2.imshow("color", frame)
-  gray = cv2.flip(gray,flop%4)
+  gray = cv2.flip(gray,0)
   cv2.imshow("gray", gray)
   if cv2.waitKey(1) & 0xFF == ord('q'):
     break
