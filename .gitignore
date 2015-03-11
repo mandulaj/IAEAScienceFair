@@ -3,3 +3,4 @@ data
 *.gz
 *.pickle
 .DS_Store
+*.xml
