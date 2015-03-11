@@ -3,6 +3,9 @@
 from struct import unpack
 import gzip
 from numpy import zeros, uint8, ravel
+import numpy as np
+from matplotlib import pyplot as plt
+import math
 
 from pylab import imshow, show, cm
 
@@ -40,9 +43,22 @@ def view_image(image, label=""):
     imshow(image, cmap=cm.gray)
     show()
 
+def visualizeData(data):
+  print "Visualize data..."
+  X = data["images"]
+  idxs = np.random.randint(data["images"].shape[0], size=100)
+  fig, ax = plt.subplots(10, 10)
+  img_size = math.sqrt(X.shape[1]*X.shape[2])
+  for i in range(10):
+      for j in range(10):
+          Xi = X[idxs[i * 10 + j]]
+          ax[i, j].set_axis_off()
+          ax[i, j].imshow(Xi, aspect="auto", cmap="gray")
+  plt.show()
+
 
 def classify(data, split, HIDDEN_NEURONS, MOMENTUM, WEIGHTDECAY,
-             LEARNING_RATE, LEARNING_RATE_DECAY, EPOCHS):
+             LEARNING_RATE, LEARNING_RATE_DECAY, EPOCHS, ldnetwork):
     INPUT_FEATURES = data['images'].shape[1] * data['images'].shape[2]
     print("Input features: %i" % INPUT_FEATURES)
     CLASSES = 10
@@ -60,8 +76,10 @@ def classify(data, split, HIDDEN_NEURONS, MOMENTUM, WEIGHTDECAY,
     trndata._convertToOneOfMany()
     tstdata._convertToOneOfMany()
 
-    net = buildNetwork(trndata.indim, HIDDEN_NEURONS, trndata.outdim,
-                       outclass=SoftmaxLayer)
+    if ldnetwork:
+      net = ldnetwork
+    else:
+      net = buildNetwork(trndata.indim, HIDDEN_NEURONS, trndata.outdim, outclass=SoftmaxLayer)
 
     trainer = BackpropTrainer(net, dataset=trndata, momentum=MOMENTUM,
                               verbose=True, weightdecay=WEIGHTDECAY,
@@ -108,6 +126,12 @@ if __name__ == '__main__':
     parser.add_argument("-sp", metavar="SPLIT", type=float, dest="split",
                         default=0.7,
                         help="percentage used for training")
+    parser.add_argument("-ln", metavar="LOADNET", type=str, dest="ldnet",
+                        default="",
+                        help="load a pre-trained network from a file")
+    parser.add_argument("-v", metavar="LOADNET", type=bool, dest="visualize",
+                        default=False,
+                        help="load a pre-trained network from a file")
     args = parser.parse_args()
 
     print ""
@@ -124,11 +148,18 @@ if __name__ == '__main__':
     print "Network Output: %s" % args.file
     print ""
 
+    if args.ldnet:
+      ldnetwork = NetworkReader.readFrom(args.ldnet)
+    else:
+      ldnetwork = False
+
     print("Getting dataset")
     data = get_labeled_data('data', args.samples)
+    if args.visualize:
+      visualizeData(data)
     print("Got %i datasets." % len(data['images']))
     net = classify(data, args.split, args.hidden_neurons, args.momentum,
-             args.weightdecay, args.learning_rate, args.lrdecay, args.epochs)
+             args.weightdecay, args.learning_rate, args.lrdecay, args.epochs, ldnetwork)
 
     NetworkWriter.writeToFile(net, args.file)
 
