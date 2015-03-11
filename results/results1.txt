@@ -1,0 +1,543 @@
+('epoch:    1', '  train error: 76.90%', '  test error: 77.70%')
+Total error: 0.0591146940055
+('epoch:    2', '  train error: 68.07%', '  test error: 66.30%')
+Total error: 0.0496151448313
+('epoch:    3', '  train error: 58.50%', '  test error: 57.70%')
+Total error: 0.0434055009552
+('epoch:    4', '  train error: 53.43%', '  test error: 53.80%')
+Total error: 0.0390300154548
+('epoch:    5', '  train error: 48.93%', '  test error: 46.00%')
+Total error: 0.0360115952063
+('epoch:    6', '  train error: 43.80%', '  test error: 43.00%')
+Total error: 0.0328792955716
+('epoch:    7', '  train error: 41.67%', '  test error: 40.10%')
+Total error: 0.0302825764729
+('epoch:    8', '  train error: 38.97%', '  test error: 35.80%')
+Total error: 0.028116423395
+('epoch:    9', '  train error: 36.13%', '  test error: 32.70%')
+Total error: 0.026126882376
+('epoch:   10', '  train error: 32.77%', '  test error: 31.30%')
+Total error: 0.0236569287347
+('epoch:   11', '  train error: 31.77%', '  test error: 30.60%')
+Total error: 0.0230090544788
+('epoch:   12', '  train error: 31.40%', '  test error: 29.90%')
+Total error: 0.0219454497479
+('epoch:   13', '  train error: 30.10%', '  test error: 28.50%')
+Total error: 0.0216729484686
+('epoch:   14', '  train error: 28.50%', '  test error: 26.30%')
+Total error: 0.0200035129231
+('epoch:   15', '  train error: 27.50%', '  test error: 25.60%')
+Total error: 0.0190289481091
+('epoch:   16', '  train error: 25.17%', '  test error: 24.20%')
+Total error: 0.0185892711589
+('epoch:   17', '  train error: 25.03%', '  test error: 23.10%')
+Total error: 0.0177227366493
+('epoch:   18', '  train error: 24.13%', '  test error: 21.90%')
+Total error: 0.0166990150141
+('epoch:   19', '  train error: 23.07%', '  test error: 21.10%')
+Total error: 0.0164202016399
+('epoch:   20', '  train error: 22.43%', '  test error: 19.80%')
+Total error: 0.0157049195266
+('epoch:   21', '  train error: 22.37%', '  test error: 20.80%')
+Total error: 0.0157299274596
+('epoch:   22', '  train error: 21.03%', '  test error: 20.50%')
+Total error: 0.014949209291
+('epoch:   23', '  train error: 20.73%', '  test error: 18.30%')
+Total error: 0.0146680579347
+('epoch:   24', '  train error: 19.60%', '  test error: 18.90%')
+Total error: 0.0140873770547
+('epoch:   25', '  train error: 17.80%', '  test error: 15.60%')
+Total error: 0.0135426222777
+('epoch:   26', '  train error: 18.17%', '  test error: 16.00%')
+Total error: 0.0131369225608
+('epoch:   27', '  train error: 17.17%', '  test error: 15.70%')
+Total error: 0.0129869353542
+('epoch:   28', '  train error: 17.73%', '  test error: 15.60%')
+Total error: 0.0126810787443
+('epoch:   29', '  train error: 16.40%', '  test error: 14.30%')
+Total error: 0.0129386070627
+('epoch:   30', '  train error: 17.07%', '  test error: 15.40%')
+Total error: 0.0122739630129
+('epoch:   31', '  train error: 15.70%', '  test error: 14.90%')
+Total error: 0.0116592292013
+('epoch:   32', '  train error: 14.97%', '  test error: 13.00%')
+Total error: 0.0115671804112
+('epoch:   33', '  train error: 14.53%', '  test error: 13.50%')
+Total error: 0.0112607626286
+('epoch:   34', '  train error: 13.80%', '  test error: 11.10%')
+Total error: 0.0110733171387
+('epoch:   35', '  train error: 13.27%', '  test error: 11.20%')
+Total error: 0.0113064336542
+('epoch:   36', '  train error: 13.73%', '  test error: 12.40%')
+Total error: 0.0111558561331
+('epoch:   37', '  train error: 13.50%', '  test error: 12.10%')
+Total error: 0.010999757364
+('epoch:   38', '  train error: 12.30%', '  test error: 11.10%')
+Total error: 0.010534259781
+('epoch:   39', '  train error: 13.17%', '  test error: 12.10%')
+Total error: 0.0103953262497
+('epoch:   40', '  train error: 11.93%', '  test error: 10.80%')
+Total error: 0.00995313510059
+('epoch:   41', '  train error: 12.00%', '  test error: 10.90%')
+Total error: 0.00991594151985
+('epoch:   42', '  train error: 12.17%', '  test error: 11.10%')
+Total error: 0.00991280466776
+('epoch:   43', '  train error: 11.27%', '  test error: 10.30%')
+Total error: 0.0100190482182
+('epoch:   44', '  train error: 11.83%', '  test error: 10.20%')
+Total error: 0.00976446027966
+('epoch:   45', '  train error: 11.27%', '  test error: 10.40%')
+Total error: 0.00996761635953
+('epoch:   46', '  train error: 11.43%', '  test error: 10.10%')
+Total error: 0.00984452609584
+('epoch:   47', '  train error: 11.03%', '  test error: 10.30%')
+Total error: 0.00954500030493
+('epoch:   48', '  train error: 10.23%', '  test error:  8.70%')
+Total error: 0.00923274966335
+('epoch:   49', '  train error: 10.20%', '  test error:  9.10%')
+Total error: 0.00904204382187
+('epoch:   50', '  train error:  9.83%', '  test error:  9.30%')
+Total error: 0.00906924466806
+('epoch:   51', '  train error:  9.80%', '  test error:  8.90%')
+Total error: 0.00885171178192
+('epoch:   52', '  train error:  9.47%', '  test error:  8.60%')
+Total error: 0.00913791873268
+('epoch:   53', '  train error: 10.20%', '  test error:  8.70%')
+Total error: 0.0091397436555
+('epoch:   54', '  train error: 10.30%', '  test error:  9.00%')
+Total error: 0.00875279176404
+('epoch:   55', '  train error:  9.17%', '  test error:  8.00%')
+Total error: 0.00854722746323
+('epoch:   56', '  train error:  9.97%', '  test error:  8.50%')
+Total error: 0.00849920803672
+('epoch:   57', '  train error:  9.23%', '  test error:  7.60%')
+Total error: 0.00859408461567
+('epoch:   58', '  train error:  9.20%', '  test error:  8.00%')
+Total error: 0.00831081827386
+('epoch:   59', '  train error:  9.13%', '  test error:  8.30%')
+Total error: 0.0081482219803
+('epoch:   60', '  train error:  8.80%', '  test error:  7.50%')
+Total error: 0.00833877043597
+('epoch:   61', '  train error:  8.80%', '  test error:  7.30%')
+Total error: 0.00808692775104
+('epoch:   62', '  train error:  8.47%', '  test error:  7.80%')
+Total error: 0.00824030607493
+('epoch:   63', '  train error:  8.37%', '  test error:  7.90%')
+Total error: 0.00800512591636
+('epoch:   64', '  train error:  8.17%', '  test error:  7.10%')
+Total error: 0.00794650525711
+('epoch:   65', '  train error:  8.83%', '  test error:  8.10%')
+Total error: 0.00775071007484
+('epoch:   66', '  train error:  8.67%', '  test error:  7.20%')
+Total error: 0.00763618023027
+('epoch:   67', '  train error:  8.30%', '  test error:  6.90%')
+Total error: 0.00725981652406
+('epoch:   68', '  train error:  8.90%', '  test error:  8.20%')
+Total error: 0.00747685194454
+('epoch:   69', '  train error:  8.30%', '  test error:  7.20%')
+Total error: 0.00742803348042
+('epoch:   70', '  train error:  7.60%', '  test error:  6.60%')
+Total error: 0.00749723368656
+('epoch:   71', '  train error:  8.00%', '  test error:  7.10%')
+Total error: 0.00720023687359
+('epoch:   72', '  train error:  7.00%', '  test error:  6.10%')
+Total error: 0.00720061456601
+('epoch:   73', '  train error:  8.03%', '  test error:  7.40%')
+Total error: 0.00741414899066
+('epoch:   74', '  train error:  7.63%', '  test error:  6.70%')
+Total error: 0.00709120010761
+('epoch:   75', '  train error:  6.87%', '  test error:  5.80%')
+Total error: 0.00668948312889
+('epoch:   76', '  train error:  6.87%', '  test error:  6.40%')
+Total error: 0.00664318758042
+('epoch:   77', '  train error:  7.03%', '  test error:  6.00%')
+Total error: 0.00645873954017
+('epoch:   78', '  train error:  6.50%', '  test error:  5.80%')
+Total error: 0.00639895050187
+('epoch:   79', '  train error:  6.80%', '  test error:  5.80%')
+Total error: 0.00603615479811
+('epoch:   80', '  train error:  6.17%', '  test error:  4.60%')
+Total error: 0.0063017717477
+('epoch:   81', '  train error:  6.73%', '  test error:  5.20%')
+Total error: 0.00662806824816
+('epoch:   82', '  train error:  6.73%', '  test error:  6.50%')
+Total error: 0.00624112352116
+('epoch:   83', '  train error:  6.57%', '  test error:  5.30%')
+Total error: 0.00625552140867
+('epoch:   84', '  train error:  6.70%', '  test error:  5.70%')
+Total error: 0.0063247034349
+('epoch:   85', '  train error:  6.53%', '  test error:  5.20%')
+Total error: 0.00634054870064
+('epoch:   86', '  train error:  6.70%', '  test error:  5.40%')
+Total error: 0.00688577089485
+('epoch:   87', '  train error:  6.97%', '  test error:  5.40%')
+Total error: 0.00689853010445
+('epoch:   88', '  train error:  7.10%', '  test error:  5.90%')
+Total error: 0.00643917513118
+('epoch:   89', '  train error:  7.03%', '  test error:  6.00%')
+Total error: 0.00654925851667
+('epoch:   90', '  train error:  6.30%', '  test error:  5.30%')
+Total error: 0.00640739878676
+('epoch:   91', '  train error:  6.40%', '  test error:  5.70%')
+Total error: 0.00636678679032
+('epoch:   92', '  train error:  7.20%', '  test error:  6.30%')
+Total error: 0.00657391407645
+('epoch:   93', '  train error:  7.60%', '  test error:  6.50%')
+Total error: 0.00685000138552
+('epoch:   94', '  train error:  6.53%', '  test error:  5.60%')
+Total error: 0.00674473932901
+('epoch:   95', '  train error:  6.33%', '  test error:  5.80%')
+Total error: 0.00666434488589
+('epoch:   96', '  train error:  6.77%', '  test error:  5.50%')
+Total error: 0.00646210193997
+('epoch:   97', '  train error:  5.83%', '  test error:  5.70%')
+Total error: 0.00623999498808
+('epoch:   98', '  train error:  6.40%', '  test error:  5.90%')
+Total error: 0.00648415761055
+('epoch:   99', '  train error:  6.67%', '  test error:  6.50%')
+Total error: 0.00674819235563
+('epoch:  100', '  train error:  7.50%', '  test error:  6.50%')
+Total error: 0.00685206732948
+('epoch:  101', '  train error:  7.43%', '  test error:  6.00%')
+Total error: 0.00658719224692
+('epoch:  102', '  train error:  6.30%', '  test error:  5.80%')
+Total error: 0.00637831175487
+('epoch:  103', '  train error:  6.23%', '  test error:  5.10%')
+Total error: 0.00655031050097
+('epoch:  104', '  train error:  6.67%', '  test error:  5.20%')
+Total error: 0.00658799212359
+('epoch:  105', '  train error:  6.20%', '  test error:  5.00%')
+Total error: 0.00668389382929
+('epoch:  106', '  train error:  6.53%', '  test error:  6.60%')
+Total error: 0.00718542269488
+('epoch:  107', '  train error:  6.63%', '  test error:  6.90%')
+Total error: 0.00650571027923
+('epoch:  108', '  train error:  6.73%', '  test error:  4.80%')
+Total error: 0.00666955852782
+('epoch:  109', '  train error:  6.50%', '  test error:  5.70%')
+Total error: 0.00661165522991
+('epoch:  110', '  train error:  6.80%', '  test error:  5.80%')
+Total error: 0.00653753341504
+('epoch:  111', '  train error:  5.97%', '  test error:  5.40%')
+Total error: 0.00629758541549
+('epoch:  112', '  train error:  6.73%', '  test error:  5.60%')
+Total error: 0.00658812960506
+('epoch:  113', '  train error:  6.23%', '  test error:  5.80%')
+Total error: 0.00658024459673
+('epoch:  114', '  train error:  6.50%', '  test error:  5.00%')
+Total error: 0.00641963384612
+('epoch:  115', '  train error:  6.47%', '  test error:  5.60%')
+Total error: 0.00604030605155
+('epoch:  116', '  train error:  6.33%', '  test error:  5.20%')
+Total error: 0.00617364088085
+('epoch:  117', '  train error:  7.03%', '  test error:  6.30%')
+Total error: 0.00665900091777
+('epoch:  118', '  train error:  5.80%', '  test error:  4.20%')
+Total error: 0.00638597877381
+('epoch:  119', '  train error:  6.37%', '  test error:  5.10%')
+Total error: 0.00646635463402
+('epoch:  120', '  train error:  7.30%', '  test error:  6.80%')
+Total error: 0.006882132774
+('epoch:  121', '  train error:  6.37%', '  test error:  5.10%')
+Total error: 0.00623866048466
+('epoch:  122', '  train error:  6.57%', '  test error:  4.70%')
+Total error: 0.00640791982335
+('epoch:  123', '  train error:  7.10%', '  test error:  6.20%')
+Total error: 0.00684254832513
+('epoch:  124', '  train error:  7.20%', '  test error:  5.60%')
+Total error: 0.00670139864944
+('epoch:  125', '  train error:  6.47%', '  test error:  5.10%')
+Total error: 0.00653470926881
+('epoch:  126', '  train error:  7.13%', '  test error:  5.30%')
+Total error: 0.00676403740703
+('epoch:  127', '  train error:  7.77%', '  test error:  6.20%')
+Total error: 0.00685891745854
+('epoch:  128', '  train error:  7.07%', '  test error:  6.00%')
+Total error: 0.00660347806588
+('epoch:  129', '  train error:  7.00%', '  test error:  6.20%')
+Total error: 0.00692943777301
+('epoch:  130', '  train error:  7.03%', '  test error:  6.00%')
+Total error: 0.00687286577847
+('epoch:  131', '  train error:  7.23%', '  test error:  5.50%')
+Total error: 0.00652114676313
+('epoch:  132', '  train error:  7.13%', '  test error:  5.50%')
+Total error: 0.00663054806645
+('epoch:  133', '  train error:  7.00%', '  test error:  6.00%')
+Total error: 0.00663484981297
+('epoch:  134', '  train error:  6.73%', '  test error:  5.80%')
+Total error: 0.00649810128648
+('epoch:  135', '  train error:  6.87%', '  test error:  5.80%')
+Total error: 0.00640184518934
+('epoch:  136', '  train error:  6.67%', '  test error:  5.10%')
+Total error: 0.00628376877589
+('epoch:  137', '  train error:  6.50%', '  test error:  5.30%')
+Total error: 0.00696724486533
+('epoch:  138', '  train error:  7.87%', '  test error:  6.60%')
+Total error: 0.00712858138914
+('epoch:  139', '  train error:  6.43%', '  test error:  5.30%')
+Total error: 0.00704551348871
+('epoch:  140', '  train error:  7.03%', '  test error:  5.50%')
+Total error: 0.00672445871918
+('epoch:  141', '  train error:  7.17%', '  test error:  5.30%')
+Total error: 0.00677299831237
+('epoch:  142', '  train error:  7.23%', '  test error:  6.80%')
+Total error: 0.00646729381621
+('epoch:  143', '  train error:  7.13%', '  test error:  6.40%')
+Total error: 0.00695043940208
+('epoch:  144', '  train error:  6.17%', '  test error:  4.90%')
+Total error: 0.00702308356323
+('epoch:  145', '  train error:  8.03%', '  test error:  6.70%')
+Total error: 0.007383227342
+('epoch:  146', '  train error:  7.30%', '  test error:  5.60%')
+Total error: 0.00700213844258
+('epoch:  147', '  train error:  6.70%', '  test error:  5.30%')
+Total error: 0.00668258138208
+('epoch:  148', '  train error:  6.87%', '  test error:  5.40%')
+Total error: 0.00700640807319
+('epoch:  149', '  train error:  7.20%', '  test error:  5.90%')
+Total error: 0.00756132406523
+('epoch:  150', '  train error:  7.30%', '  test error:  6.30%')
+Total error: 0.00693281630504
+('epoch:  151', '  train error:  7.10%', '  test error:  5.50%')
+Total error: 0.00745447377529
+('epoch:  152', '  train error:  7.33%', '  test error:  6.20%')
+Total error: 0.00694658028261
+('epoch:  153', '  train error:  7.90%', '  test error:  6.70%')
+Total error: 0.00711500414576
+('epoch:  154', '  train error:  7.97%', '  test error:  7.00%')
+Total error: 0.00757769424019
+('epoch:  155', '  train error:  7.23%', '  test error:  6.20%')
+Total error: 0.00662735401306
+('epoch:  156', '  train error:  6.10%', '  test error:  4.70%')
+Total error: 0.00644243453016
+('epoch:  157', '  train error:  6.63%', '  test error:  4.80%')
+Total error: 0.00674960596725
+('epoch:  158', '  train error:  6.77%', '  test error:  5.40%')
+Total error: 0.00681435896981
+('epoch:  159', '  train error:  6.23%', '  test error:  4.70%')
+Total error: 0.00698113707587
+('epoch:  160', '  train error:  6.50%', '  test error:  6.10%')
+Total error: 0.00706430062897
+('epoch:  161', '  train error:  7.30%', '  test error:  5.20%')
+Total error: 0.00682269562671
+('epoch:  162', '  train error:  7.80%', '  test error:  5.90%')
+Total error: 0.00694987460464
+('epoch:  163', '  train error:  6.83%', '  test error:  5.10%')
+Total error: 0.00655075275424
+('epoch:  164', '  train error:  7.53%', '  test error:  5.60%')
+Total error: 0.00677450740715
+('epoch:  165', '  train error:  7.07%', '  test error:  4.80%')
+Total error: 0.00671583578195
+('epoch:  166', '  train error:  5.97%', '  test error:  4.90%')
+Total error: 0.00637650748663
+('epoch:  167', '  train error:  6.80%', '  test error:  4.90%')
+Total error: 0.00685050465676
+('epoch:  168', '  train error:  7.20%', '  test error:  5.90%')
+Total error: 0.00661987826576
+('epoch:  169', '  train error:  6.07%', '  test error:  4.70%')
+Total error: 0.00623831780228
+('epoch:  170', '  train error:  6.73%', '  test error:  5.10%')
+Total error: 0.00677477699298
+('epoch:  171', '  train error:  7.23%', '  test error:  5.80%')
+Total error: 0.00691346056216
+('epoch:  172', '  train error:  7.53%', '  test error:  6.00%')
+Total error: 0.00684210914103
+('epoch:  173', '  train error:  6.77%', '  test error:  5.50%')
+Total error: 0.00686625443749
+('epoch:  174', '  train error:  6.67%', '  test error:  5.40%')
+Total error: 0.0070562386498
+('epoch:  175', '  train error:  7.77%', '  test error:  6.70%')
+Total error: 0.00746852262919
+('epoch:  176', '  train error:  7.20%', '  test error:  6.60%')
+Total error: 0.00723883311814
+('epoch:  177', '  train error:  7.30%', '  test error:  5.70%')
+Total error: 0.0069771150215
+('epoch:  178', '  train error:  7.00%', '  test error:  5.50%')
+Total error: 0.00699532783801
+('epoch:  179', '  train error:  7.20%', '  test error:  6.20%')
+Total error: 0.00716673623238
+('epoch:  180', '  train error:  6.73%', '  test error:  5.90%')
+Total error: 0.00699719303922
+('epoch:  181', '  train error:  6.73%', '  test error:  5.90%')
+Total error: 0.00730118325882
+('epoch:  182', '  train error:  7.27%', '  test error:  5.50%')
+Total error: 0.00715192204367
+('epoch:  183', '  train error:  6.60%', '  test error:  5.40%')
+Total error: 0.0070025674811
+('epoch:  184', '  train error:  7.23%', '  test error:  6.30%')
+Total error: 0.00682102804321
+('epoch:  185', '  train error:  6.37%', '  test error:  5.00%')
+Total error: 0.00654111995037
+('epoch:  186', '  train error:  6.30%', '  test error:  4.50%')
+Total error: 0.00695405971291
+('epoch:  187', '  train error:  6.97%', '  test error:  5.50%')
+Total error: 0.00661608409178
+('epoch:  188', '  train error:  6.50%', '  test error:  6.00%')
+Total error: 0.00660645035262
+('epoch:  189', '  train error:  7.00%', '  test error:  5.80%')
+Total error: 0.00718293454361
+('epoch:  190', '  train error:  8.07%', '  test error:  6.30%')
+Total error: 0.00707427025756
+('epoch:  191', '  train error:  7.37%', '  test error:  6.30%')
+Total error: 0.00716336695399
+('epoch:  192', '  train error:  7.70%', '  test error:  6.30%')
+Total error: 0.00694485786785
+('epoch:  193', '  train error:  7.27%', '  test error:  6.20%')
+Total error: 0.00670717543466
+('epoch:  194', '  train error:  7.00%', '  test error:  6.00%')
+Total error: 0.00655434682162
+('epoch:  195', '  train error:  6.43%', '  test error:  5.40%')
+Total error: 0.00668610711313
+('epoch:  196', '  train error:  6.67%', '  test error:  6.30%')
+Total error: 0.00681891014392
+('epoch:  197', '  train error:  6.53%', '  test error:  5.00%')
+Total error: 0.00709831978106
+('epoch:  198', '  train error:  6.67%', '  test error:  5.70%')
+Total error: 0.00718689782974
+('epoch:  199', '  train error:  7.67%', '  test error:  6.70%')
+Total error: 0.00737486543038
+('epoch:  200', '  train error:  7.33%', '  test error:  5.60%')
+Total error: 0.00756782486535
+('epoch:  201', '  train error:  8.00%', '  test error:  7.10%')
+Total error: 0.00743900821712
+('epoch:  202', '  train error:  7.37%', '  test error:  6.60%')
+Total error: 0.00734959466117
+('epoch:  203', '  train error:  7.17%', '  test error:  6.20%')
+Total error: 0.00701298246387
+('epoch:  204', '  train error:  7.67%', '  test error:  6.50%')
+Total error: 0.00705133899083
+('epoch:  205', '  train error:  7.13%', '  test error:  5.50%')
+Total error: 0.00706499670522
+('epoch:  206', '  train error:  7.03%', '  test error:  5.40%')
+Total error: 0.00688357763745
+('epoch:  207', '  train error:  7.20%', '  test error:  6.40%')
+Total error: 0.0069513738477
+('epoch:  208', '  train error:  6.97%', '  test error:  5.70%')
+Total error: 0.00707320279206
+('epoch:  209', '  train error:  7.20%', '  test error:  5.70%')
+Total error: 0.00704617943277
+('epoch:  210', '  train error:  7.30%', '  test error:  6.10%')
+Total error: 0.00734424477284
+('epoch:  211', '  train error:  6.90%', '  test error:  5.70%')
+Total error: 0.0069241236977
+('epoch:  212', '  train error:  6.30%', '  test error:  5.10%')
+Total error: 0.00683180425135
+('epoch:  213', '  train error:  7.67%', '  test error:  6.40%')
+Total error: 0.00747413151074
+('epoch:  214', '  train error:  6.50%', '  test error:  4.50%')
+Total error: 0.00669264850357
+('epoch:  215', '  train error:  7.83%', '  test error:  6.30%')
+Total error: 0.00704748757821
+('epoch:  216', '  train error:  7.53%', '  test error:  6.50%')
+Total error: 0.00699985469322
+('epoch:  217', '  train error:  6.90%', '  test error:  6.40%')
+Total error: 0.00684419014131
+('epoch:  218', '  train error:  7.43%', '  test error:  6.10%')
+Total error: 0.0069484401302
+('epoch:  219', '  train error:  7.60%', '  test error:  7.30%')
+Total error: 0.00753618278981
+('epoch:  220', '  train error:  7.60%', '  test error:  6.40%')
+Total error: 0.00738494624706
+('epoch:  221', '  train error:  7.77%', '  test error:  6.50%')
+Total error: 0.00712841542103
+('epoch:  222', '  train error:  7.30%', '  test error:  6.40%')
+Total error: 0.0064815325443
+('epoch:  223', '  train error:  7.07%', '  test error:  5.50%')
+Total error: 0.0067828830975
+('epoch:  224', '  train error:  7.27%', '  test error:  5.80%')
+Total error: 0.00707012394577
+('epoch:  225', '  train error:  6.77%', '  test error:  5.70%')
+Total error: 0.00682179881534
+('epoch:  226', '  train error:  7.03%', '  test error:  5.10%')
+Total error: 0.00681217121106
+('epoch:  227', '  train error:  6.53%', '  test error:  5.10%')
+Total error: 0.00659350381613
+('epoch:  228', '  train error:  6.83%', '  test error:  5.10%')
+Total error: 0.00689993411176
+('epoch:  229', '  train error:  6.87%', '  test error:  5.10%')
+Total error: 0.00707127699116
+('epoch:  230', '  train error:  7.70%', '  test error:  6.30%')
+Total error: 0.00669512200216
+('epoch:  231', '  train error:  6.93%', '  test error:  5.50%')
+Total error: 0.00659083681027
+('epoch:  232', '  train error:  6.00%', '  test error:  4.70%')
+Total error: 0.00637826621322
+('epoch:  233', '  train error:  6.73%', '  test error:  6.10%')
+Total error: 0.00665971773652
+('epoch:  234', '  train error:  5.80%', '  test error:  4.00%')
+Total error: 0.00655911173694
+('epoch:  235', '  train error:  5.93%', '  test error:  4.70%')
+Total error: 0.00590875079786
+('epoch:  236', '  train error:  7.10%', '  test error:  5.30%')
+Total error: 0.00620125557292
+('epoch:  237', '  train error:  6.03%', '  test error:  4.90%')
+Total error: 0.00681483591245
+('epoch:  238', '  train error:  7.27%', '  test error:  5.70%')
+Total error: 0.00675300937383
+('epoch:  239', '  train error:  7.80%', '  test error:  6.20%')
+Total error: 0.00697131152428
+('epoch:  240', '  train error:  7.47%', '  test error:  5.80%')
+Total error: 0.00694643596743
+('epoch:  241', '  train error:  6.90%', '  test error:  5.60%')
+Total error: 0.00713095191862
+('epoch:  242', '  train error:  7.30%', '  test error:  6.20%')
+Total error: 0.00692268127563
+('epoch:  243', '  train error:  7.33%', '  test error:  5.70%')
+Total error: 0.0072592511661
+('epoch:  244', '  train error:  7.53%', '  test error:  6.40%')
+Total error: 0.00710250640697
+('epoch:  245', '  train error:  7.03%', '  test error:  5.90%')
+Total error: 0.00713163400265
+('epoch:  246', '  train error:  7.80%', '  test error:  6.20%')
+Total error: 0.00716828488509
+('epoch:  247', '  train error:  7.07%', '  test error:  6.20%')
+Total error: 0.00687399065199
+('epoch:  248', '  train error:  7.13%', '  test error:  5.60%')
+Total error: 0.00663837989364
+('epoch:  249', '  train error:  7.40%', '  test error:  5.80%')
+Total error: 0.00712474292328
+('epoch:  250', '  train error:  7.60%', '  test error:  6.90%')
+Total error: 0.00730700773605
+('epoch:  251', '  train error:  7.07%', '  test error:  6.70%')
+Total error: 0.00693617138588
+('epoch:  252', '  train error:  6.40%', '  test error:  5.30%')
+Total error: 0.00705985778398
+('epoch:  253', '  train error:  7.87%', '  test error:  6.40%')
+Total error: 0.00715393333268
+('epoch:  254', '  train error:  7.13%', '  test error:  5.90%')
+Total error: 0.00729090857157
+('epoch:  255', '  train error:  7.73%', '  test error:  6.60%')
+Total error: 0.00715214565088
+('epoch:  256', '  train error:  7.00%', '  test error:  5.60%')
+Total error: 0.00721892498687
+('epoch:  257', '  train error:  7.43%', '  test error:  6.40%')
+Total error: 0.0075783657452
+('epoch:  258', '  train error:  7.90%', '  test error:  5.90%')
+Total error: 0.00708371296621
+('epoch:  259', '  train error:  8.23%', '  test error:  6.40%')
+Total error: 0.00685247950118
+('epoch:  260', '  train error:  6.93%', '  test error:  5.90%')
+Total error: 0.0064528012913
+('epoch:  261', '  train error:  6.53%', '  test error:  5.30%')
+Total error: 0.00677157498444
+('epoch:  262', '  train error:  7.77%', '  test error:  6.50%')
+Total error: 0.00709629847046
+('epoch:  263', '  train error:  7.40%', '  test error:  6.70%')
+Total error: 0.00672178907107
+('epoch:  264', '  train error:  7.63%', '  test error:  6.60%')
+Total error: 0.00690692204234
+('epoch:  265', '  train error:  6.77%', '  test error:  6.10%')
+Total error: 0.00662537736299
+('epoch:  266', '  train error:  7.67%', '  test error:  5.90%')
+Total error: 0.00671851885753
+('epoch:  267', '  train error:  6.33%', '  test error:  4.90%')
+Total error: 0.00667461087274
+('epoch:  268', '  train error:  6.73%', '  test error:  5.70%')
+Total error: 0.00663547278964
+('epoch:  269', '  train error:  7.20%', '  test error:  6.60%')
+Total error: 0.00636394176312
+('epoch:  270', '  train error:  6.13%', '  test error:  5.10%')
+Total error: 0.00608883503172
+('epoch:  271', '  train error:  6.83%', '  test error:  6.00%')
+Total error: 0.00642588672299
+('epoch:  272', '  train error:  6.77%', '  test error:  5.60%')
