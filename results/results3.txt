@@ -1,0 +1,215 @@
+('epoch:    1', '  train error: 69.67%', '  test error: 70.75%')
+Total error: 0.0468865866692
+('epoch:    2', '  train error: 52.62%', '  test error: 57.00%')
+Total error: 0.0358719359208
+('epoch:    3', '  train error: 43.02%', '  test error: 45.65%')
+Total error: 0.029917706103
+('epoch:    4', '  train error: 37.67%', '  test error: 43.15%')
+Total error: 0.0262513597189
+('epoch:    5', '  train error: 33.30%', '  test error: 36.90%')
+Total error: 0.0234545061642
+('epoch:    6', '  train error: 31.20%', '  test error: 35.60%')
+Total error: 0.0213497420336
+('epoch:    7', '  train error: 27.43%', '  test error: 33.90%')
+Total error: 0.0190589561688
+('epoch:    8', '  train error: 24.75%', '  test error: 30.35%')
+Total error: 0.0178209268148
+('epoch:    9', '  train error: 23.63%', '  test error: 29.10%')
+Total error: 0.0165633334855
+('epoch:   10', '  train error: 21.80%', '  test error: 26.30%')
+Total error: 0.0151676414034
+('epoch:   11', '  train error: 20.55%', '  test error: 26.30%')
+Total error: 0.0143771973633
+('epoch:   12', '  train error: 19.15%', '  test error: 24.10%')
+Total error: 0.0136813746457
+('epoch:   13', '  train error: 17.75%', '  test error: 23.65%')
+Total error: 0.0129882337042
+('epoch:   14', '  train error: 16.85%', '  test error: 23.90%')
+Total error: 0.0130699153072
+('epoch:   15', '  train error: 17.28%', '  test error: 22.20%')
+Total error: 0.0123779728229
+('epoch:   16', '  train error: 15.77%', '  test error: 20.80%')
+Total error: 0.011619934554
+('epoch:   17', '  train error: 15.02%', '  test error: 20.70%')
+Total error: 0.0113664988795
+('epoch:   18', '  train error: 14.53%', '  test error: 19.85%')
+Total error: 0.0109906457052
+('epoch:   19', '  train error: 13.38%', '  test error: 19.05%')
+Total error: 0.0106405080605
+('epoch:   20', '  train error: 12.72%', '  test error: 17.85%')
+Total error: 0.0101827661934
+('epoch:   21', '  train error: 12.70%', '  test error: 17.35%')
+Total error: 0.0100181538446
+('epoch:   22', '  train error: 11.85%', '  test error: 18.65%')
+Total error: 0.00975422518951
+('epoch:   23', '  train error: 11.37%', '  test error: 17.15%')
+Total error: 0.00952106455655
+('epoch:   24', '  train error: 10.78%', '  test error: 16.20%')
+Total error: 0.00922761280104
+('epoch:   25', '  train error: 10.80%', '  test error: 15.45%')
+Total error: 0.00900288049661
+('epoch:   26', '  train error: 10.15%', '  test error: 15.40%')
+Total error: 0.00879158891053
+('epoch:   27', '  train error: 10.37%', '  test error: 14.95%')
+Total error: 0.00833510730188
+('epoch:   28', '  train error:  9.70%', '  test error: 14.05%')
+Total error: 0.00834815560754
+('epoch:   29', '  train error:  9.15%', '  test error: 13.30%')
+Total error: 0.00801341005966
+('epoch:   30', '  train error:  9.60%', '  test error: 14.10%')
+Total error: 0.00772880799305
+('epoch:   31', '  train error:  8.67%', '  test error: 13.65%')
+Total error: 0.00801447652457
+('epoch:   32', '  train error:  9.25%', '  test error: 14.20%')
+Total error: 0.00802432305507
+('epoch:   33', '  train error:  9.13%', '  test error: 13.65%')
+Total error: 0.00782115753011
+('epoch:   34', '  train error:  8.87%', '  test error: 12.75%')
+Total error: 0.00778977299288
+('epoch:   35', '  train error:  7.92%', '  test error: 12.40%')
+Total error: 0.0075196616453
+('epoch:   36', '  train error:  8.20%', '  test error: 12.40%')
+Total error: 0.00715648731665
+('epoch:   37', '  train error:  8.08%', '  test error: 12.40%')
+Total error: 0.00752860889928
+('epoch:   38', '  train error:  8.70%', '  test error: 12.45%')
+Total error: 0.00812360658181
+('epoch:   39', '  train error:  8.33%', '  test error: 12.65%')
+Total error: 0.0078259384167
+('epoch:   40', '  train error:  8.25%', '  test error: 12.90%')
+Total error: 0.0074895235035
+('epoch:   41', '  train error:  7.85%', '  test error: 12.45%')
+Total error: 0.00728406867013
+('epoch:   42', '  train error:  7.77%', '  test error: 13.05%')
+Total error: 0.00722175360734
+('epoch:   43', '  train error:  7.57%', '  test error: 11.70%')
+Total error: 0.00731507695678
+('epoch:   44', '  train error:  7.60%', '  test error: 12.60%')
+Total error: 0.00730726407961
+('epoch:   45', '  train error:  7.95%', '  test error: 11.20%')
+Total error: 0.00723246775024
+('epoch:   46', '  train error:  8.08%', '  test error: 12.05%')
+Total error: 0.00694657436155
+('epoch:   47', '  train error:  7.62%', '  test error: 11.85%')
+Total error: 0.00686255081901
+('epoch:   48', '  train error:  7.83%', '  test error: 12.05%')
+Total error: 0.00716028191631
+('epoch:   49', '  train error:  7.20%', '  test error: 10.70%')
+Total error: 0.00692977932955
+('epoch:   50', '  train error:  7.25%', '  test error: 12.50%')
+Total error: 0.00667096162154
+('epoch:   51', '  train error:  7.33%', '  test error: 11.20%')
+Total error: 0.00700670132378
+('epoch:   52', '  train error:  7.37%', '  test error: 11.90%')
+Total error: 0.00713568112437
+('epoch:   53', '  train error:  7.78%', '  test error: 11.00%')
+Total error: 0.00705525147754
+('epoch:   54', '  train error:  7.10%', '  test error: 11.60%')
+Total error: 0.00693378013394
+('epoch:   55', '  train error:  7.33%', '  test error: 11.70%')
+Total error: 0.00699428571005
+('epoch:   56', '  train error:  7.42%', '  test error: 11.85%')
+Total error: 0.00713056474926
+('epoch:   57', '  train error:  7.60%', '  test error: 11.05%')
+Total error: 0.00726502510932
+('epoch:   58', '  train error:  8.03%', '  test error: 12.10%')
+Total error: 0.00756108565043
+('epoch:   59', '  train error:  7.67%', '  test error: 11.25%')
+Total error: 0.00730963494404
+('epoch:   60', '  train error:  7.30%', '  test error: 11.95%')
+Total error: 0.00698379642086
+('epoch:   61', '  train error:  7.05%', '  test error: 12.15%')
+Total error: 0.00688081256497
+('epoch:   62', '  train error:  8.35%', '  test error: 13.00%')
+Total error: 0.00708782600525
+('epoch:   63', '  train error:  7.62%', '  test error: 12.00%')
+Total error: 0.00737110358814
+('epoch:   64', '  train error:  7.62%', '  test error: 11.20%')
+Total error: 0.00715634707637
+('epoch:   65', '  train error:  7.48%', '  test error: 11.80%')
+Total error: 0.00748189219432
+('epoch:   66', '  train error:  8.20%', '  test error: 11.65%')
+Total error: 0.0075945699283
+('epoch:   67', '  train error:  8.27%', '  test error: 11.85%')
+Total error: 0.00730271127256
+('epoch:   68', '  train error:  7.58%', '  test error: 11.50%')
+Total error: 0.00711581145273
+('epoch:   69', '  train error:  7.80%', '  test error: 12.00%')
+Total error: 0.00767137712606
+('epoch:   70', '  train error:  8.12%', '  test error: 12.20%')
+Total error: 0.00721894517872
+('epoch:   71', '  train error:  7.52%', '  test error: 10.75%')
+Total error: 0.00698667312021
+('epoch:   72', '  train error:  6.93%', '  test error: 11.20%')
+Total error: 0.00711696884308
+('epoch:   73', '  train error:  8.05%', '  test error: 12.65%')
+Total error: 0.00736342423516
+('epoch:   74', '  train error:  7.78%', '  test error: 12.15%')
+Total error: 0.00755943331494
+('epoch:   75', '  train error:  7.42%', '  test error: 12.65%')
+Total error: 0.00731613572723
+('epoch:   76', '  train error:  7.75%', '  test error: 12.00%')
+Total error: 0.00750564007966
+('epoch:   77', '  train error:  8.02%', '  test error: 11.80%')
+Total error: 0.00745460234444
+('epoch:   78', '  train error:  8.52%', '  test error: 12.80%')
+Total error: 0.00732936980044
+('epoch:   79', '  train error:  7.82%', '  test error: 12.60%')
+Total error: 0.00734161222951
+('epoch:   80', '  train error:  7.83%', '  test error: 11.90%')
+Total error: 0.00721283173568
+('epoch:   81', '  train error:  7.40%', '  test error: 11.55%')
+Total error: 0.00727279492271
+('epoch:   82', '  train error:  8.03%', '  test error: 11.60%')
+Total error: 0.00711724998795
+('epoch:   83', '  train error:  8.15%', '  test error: 11.85%')
+Total error: 0.00747621056287
+('epoch:   84', '  train error:  7.70%', '  test error: 11.45%')
+Total error: 0.00784289492756
+('epoch:   85', '  train error:  7.85%', '  test error: 11.10%')
+Total error: 0.00765624200987
+('epoch:   86', '  train error:  8.98%', '  test error: 12.30%')
+Total error: 0.00769436615797
+('epoch:   87', '  train error:  8.50%', '  test error: 12.90%')
+Total error: 0.00780563498626
+('epoch:   88', '  train error:  8.88%', '  test error: 12.25%')
+Total error: 0.00774810477271
+('epoch:   89', '  train error:  8.98%', '  test error: 11.65%')
+Total error: 0.00756857741063
+('epoch:   90', '  train error:  8.20%', '  test error: 12.85%')
+Total error: 0.00753765559321
+('epoch:   91', '  train error:  8.05%', '  test error: 12.75%')
+Total error: 0.00767776365096
+('epoch:   92', '  train error:  8.67%', '  test error: 11.55%')
+Total error: 0.00778757284801
+('epoch:   93', '  train error:  9.03%', '  test error: 13.75%')
+Total error: 0.00777179312784
+('epoch:   94', '  train error:  8.47%', '  test error: 12.00%')
+Total error: 0.00774247477277
+('epoch:   95', '  train error:  8.63%', '  test error: 11.50%')
+Total error: 0.0075116299007
+('epoch:   96', '  train error:  8.57%', '  test error: 12.50%')
+Total error: 0.00779015425819
+('epoch:   97', '  train error:  8.55%', '  test error: 11.90%')
+Total error: 0.00763777801079
+('epoch:   98', '  train error:  8.77%', '  test error: 12.40%')
+Total error: 0.00811155093399
+('epoch:   99', '  train error:  8.73%', '  test error: 13.30%')
+Total error: 0.00816519161251
+('epoch:  100', '  train error:  8.47%', '  test error: 11.50%')
+Total error: 0.00748201333044
+('epoch:  101', '  train error:  8.73%', '  test error: 12.30%')
+Total error: 0.00792927690459
+('epoch:  102', '  train error:  7.98%', '  test error: 11.80%')
+Total error: 0.00777648897803
+('epoch:  103', '  train error:  8.53%', '  test error: 11.85%')
+Total error: 0.00762879736148
+('epoch:  104', '  train error:  7.40%', '  test error: 10.55%')
+Total error: 0.00741780957892
+('epoch:  105', '  train error:  7.67%', '  test error: 12.10%')
+Total error: 0.00739874137801
+('epoch:  106', '  train error:  8.43%', '  test error: 12.30%')
+Total error: 0.00744246143824
+('epoch:  107', '  train error:  7.92%', '  test error: 11.90%')
+Total error: 0.00777831083726
+('epoch:  108', '  train error:  8.48%', '  test error: 11.90%')
