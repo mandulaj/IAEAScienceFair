@@ -84,7 +84,7 @@ class ImageGenerator:
     def motion(self,event):
         if self.b1 == "down":
             if self.xold is not None and self.yold is not None:
-                event.widget.create_line(self.xold,self.yold,event.x,event.y,smooth='true',width=17,fill='black')
+                event.widget.create_line(self.xold,self.yold,event.x,event.y,smooth='true',width=5,fill='black')
                 self.draw.line(((self.xold,self.yold),(event.x,event.y)),(0,0,0),width=17)
 
         self.xold = event.x
