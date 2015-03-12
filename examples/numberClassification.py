@@ -164,6 +164,3 @@ if __name__ == '__main__':
              args.weightdecay, args.learning_rate, args.lrdecay, args.epochs, ldnetwork)
 
     NetworkWriter.writeToFile(net, args.file)
-
-
-
