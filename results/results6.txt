@@ -1,0 +1,299 @@
+Epoch    1,  Train error: 77.70%,  Test error: 79.00%
+Total error: 0.05099456863
+Epoch    2,  Train error: 88.19%,  Test error: 87.95%
+Total error: 0.0487791061828
+Epoch    3,  Train error: 82.89%,  Test error: 83.50%
+Total error: 0.0482397652296
+Epoch    4,  Train error: 90.51%,  Test error: 90.05%
+Total error: 0.0458920154055
+Epoch    5,  Train error: 79.08%,  Test error: 79.15%
+Total error: 0.0456939986094
+Epoch    6,  Train error: 72.11%,  Test error: 73.90%
+Total error: 0.0448377872719
+Epoch    7,  Train error: 78.74%,  Test error: 78.55%
+Total error: 0.0439784767787
+Epoch    8,  Train error: 72.59%,  Test error: 73.40%
+Total error: 0.0425731103744
+Epoch    9,  Train error: 67.67%,  Test error: 70.95%
+Total error: 0.0438046743918
+Epoch   10,  Train error: 75.55%,  Test error: 78.80%
+Total error: 0.0409732457114
+Epoch   11,  Train error: 61.86%,  Test error: 61.40%
+Total error: 0.0394432559854
+Epoch   12,  Train error: 63.66%,  Test error: 65.05%
+Total error: 0.0376315979842
+Epoch   13,  Train error: 62.46%,  Test error: 65.00%
+Total error: 0.0362932755428
+Epoch   14,  Train error: 67.42%,  Test error: 70.40%
+Total error: 0.0359687361287
+Epoch   15,  Train error: 45.75%,  Test error: 49.90%
+Total error: 0.0338419855457
+Epoch   16,  Train error: 54.00%,  Test error: 57.30%
+Total error: 0.0336324930226
+Epoch   17,  Train error: 47.94%,  Test error: 49.25%
+Total error: 0.0333256833093
+Epoch   18,  Train error: 53.49%,  Test error: 53.45%
+Total error: 0.0313299945611
+Epoch   19,  Train error: 35.61%,  Test error: 37.25%
+Total error: 0.0299212309592
+Epoch   20,  Train error: 40.71%,  Test error: 43.95%
+Total error: 0.0277406559156
+Epoch   21,  Train error: 34.01%,  Test error: 36.05%
+Total error: 0.0263648100602
+Epoch   22,  Train error: 27.79%,  Test error: 28.90%
+Total error: 0.0256282895391
+Epoch   23,  Train error: 30.80%,  Test error: 32.95%
+Total error: 0.0235966803591
+Epoch   24,  Train error: 27.73%,  Test error: 28.75%
+Total error: 0.022260948873
+Epoch   25,  Train error: 29.46%,  Test error: 31.40%
+Total error: 0.0218485367386
+Epoch   26,  Train error: 28.00%,  Test error: 29.55%
+Total error: 0.0198067198763
+Epoch   27,  Train error: 23.80%,  Test error: 25.95%
+Total error: 0.0189210012968
+Epoch   28,  Train error: 23.07%,  Test error: 24.25%
+Total error: 0.0171210192029
+Epoch   29,  Train error: 18.48%,  Test error: 19.75%
+Total error: 0.0171653263675
+Epoch   30,  Train error: 18.16%,  Test error: 19.50%
+Total error: 0.0165123992362
+Epoch   31,  Train error: 19.02%,  Test error: 18.70%
+Total error: 0.0157574530266
+Epoch   32,  Train error: 17.44%,  Test error: 19.15%
+Total error: 0.0158295186953
+Epoch   33,  Train error: 15.45%,  Test error: 16.10%
+Total error: 0.013956651385
+Epoch   34,  Train error: 17.89%,  Test error: 19.15%
+Total error: 0.014559781426
+Epoch   35,  Train error: 15.43%,  Test error: 16.25%
+Total error: 0.0137810260164
+Epoch   36,  Train error: 15.36%,  Test error: 16.05%
+Total error: 0.0122302172923
+Epoch   37,  Train error: 13.09%,  Test error: 14.35%
+Total error: 0.0115575992991
+Epoch   38,  Train error: 12.97%,  Test error: 15.20%
+Total error: 0.0110926496196
+Epoch   39,  Train error: 11.50%,  Test error: 12.55%
+Total error: 0.010227004354
+Epoch   40,  Train error: 10.79%,  Test error: 12.00%
+Total error: 0.00978592190328
+Epoch   41,  Train error: 11.24%,  Test error: 12.60%
+Total error: 0.00962377102611
+Epoch   42,  Train error: 10.86%,  Test error: 12.25%
+Total error: 0.00903151150457
+Epoch   43,  Train error:  9.51%,  Test error: 10.95%
+Total error: 0.00861607308111
+Epoch   44,  Train error:  8.66%,  Test error: 10.40%
+Total error: 0.00839895126015
+Epoch   45,  Train error:  9.62%,  Test error: 11.85%
+Total error: 0.00806319967188
+Epoch   46,  Train error:  9.16%,  Test error: 10.25%
+Total error: 0.00769125528617
+Epoch   47,  Train error:  8.43%,  Test error:  9.40%
+Total error: 0.00748693903072
+Epoch   48,  Train error:  8.01%,  Test error:  9.85%
+Total error: 0.00682110289152
+Epoch   49,  Train error:  7.36%,  Test error:  9.55%
+Total error: 0.00638861949861
+Epoch   50,  Train error:  7.25%,  Test error:  9.00%
+Total error: 0.00619412249811
+Epoch   51,  Train error:  7.08%,  Test error:  9.10%
+Total error: 0.00601549330067
+Epoch   52,  Train error:  6.65%,  Test error:  8.90%
+Total error: 0.00574929790373
+Epoch   53,  Train error:  6.11%,  Test error:  8.60%
+Total error: 0.00534583816087
+Epoch   54,  Train error:  5.91%,  Test error:  8.30%
+Total error: 0.00520534607262
+Epoch   55,  Train error:  5.69%,  Test error:  7.95%
+Total error: 0.00486509358156
+Epoch   56,  Train error:  5.59%,  Test error:  8.05%
+Total error: 0.00476238370168
+Epoch   57,  Train error:  5.30%,  Test error:  8.05%
+Total error: 0.00456944826353
+Epoch   58,  Train error:  5.04%,  Test error:  7.40%
+Total error: 0.00429153998451
+Epoch   59,  Train error:  5.09%,  Test error:  7.20%
+Total error: 0.0041885772472
+Epoch   60,  Train error:  4.65%,  Test error:  7.25%
+Total error: 0.00390501622235
+Epoch   61,  Train error:  4.36%,  Test error:  7.60%
+Total error: 0.00381063881186
+Epoch   62,  Train error:  4.20%,  Test error:  7.05%
+Total error: 0.00364231682234
+Epoch   63,  Train error:  3.83%,  Test error:  6.90%
+Total error: 0.00349361244859
+Epoch   64,  Train error:  3.80%,  Test error:  6.60%
+Total error: 0.00336404615291
+Epoch   65,  Train error:  3.62%,  Test error:  6.85%
+Total error: 0.00317434039232
+Epoch   66,  Train error:  3.21%,  Test error:  7.15%
+Total error: 0.00297757326227
+Epoch   67,  Train error:  3.20%,  Test error:  6.75%
+Total error: 0.00288085968609
+Epoch   68,  Train error:  2.86%,  Test error:  6.80%
+Total error: 0.00279840402005
+Epoch   69,  Train error:  2.81%,  Test error:  6.85%
+Total error: 0.00264339793567
+Epoch   70,  Train error:  2.70%,  Test error:  6.55%
+Total error: 0.00252714531913
+Epoch   71,  Train error:  2.41%,  Test error:  6.60%
+Total error: 0.00243027098442
+Epoch   72,  Train error:  2.34%,  Test error:  6.60%
+Total error: 0.00233443208816
+Epoch   73,  Train error:  2.26%,  Test error:  6.55%
+Total error: 0.0022389910832
+Epoch   74,  Train error:  2.14%,  Test error:  6.70%
+Total error: 0.00216753359642
+Epoch   75,  Train error:  2.05%,  Test error:  6.75%
+Total error: 0.00210461726799
+Epoch   76,  Train error:  2.01%,  Test error:  6.70%
+Total error: 0.00203738805116
+Epoch   77,  Train error:  1.93%,  Test error:  6.65%
+Total error: 0.00197532398528
+Epoch   78,  Train error:  1.84%,  Test error:  6.70%
+Total error: 0.00193834731121
+Epoch   79,  Train error:  1.81%,  Test error:  6.60%
+Total error: 0.00190431786401
+Epoch   80,  Train error:  1.81%,  Test error:  6.70%
+Total error: 0.00187403074986
+Epoch   81,  Train error:  1.77%,  Test error:  6.55%
+Total error: 0.00184794799342
+Epoch   82,  Train error:  1.73%,  Test error:  6.65%
+Total error: 0.00182825823582
+Epoch   83,  Train error:  1.73%,  Test error:  6.75%
+Total error: 0.0018151381727
+Epoch   84,  Train error:  1.75%,  Test error:  6.70%
+Total error: 0.00180533345062
+Epoch   85,  Train error:  1.71%,  Test error:  6.80%
+Total error: 0.0017916053919
+Epoch   86,  Train error:  1.70%,  Test error:  6.70%
+Total error: 0.00178167733274
+Epoch   87,  Train error:  1.70%,  Test error:  6.75%
+Total error: 0.00177415135279
+Epoch   88,  Train error:  1.70%,  Test error:  6.70%
+Total error: 0.00176834793266
+Epoch   89,  Train error:  1.68%,  Test error:  6.75%
+Total error: 0.00176344208949
+Epoch   90,  Train error:  1.68%,  Test error:  6.75%
+Total error: 0.00175879826915
+Epoch   91,  Train error:  1.68%,  Test error:  6.70%
+Total error: 0.00175407199441
+Epoch   92,  Train error:  1.69%,  Test error:  6.65%
+Total error: 0.00175117824768
+Epoch   93,  Train error:  1.68%,  Test error:  6.75%
+Total error: 0.00174780442378
+Epoch   94,  Train error:  1.68%,  Test error:  6.75%
+Total error: 0.00174523061759
+Epoch   95,  Train error:  1.69%,  Test error:  6.80%
+Total error: 0.00174245693037
+Epoch   96,  Train error:  1.69%,  Test error:  6.70%
+Total error: 0.00174031327738
+Epoch   97,  Train error:  1.68%,  Test error:  6.75%
+Total error: 0.00173851143426
+Epoch   98,  Train error:  1.66%,  Test error:  6.70%
+Total error: 0.00173651272967
+Epoch   99,  Train error:  1.66%,  Test error:  6.65%
+Total error: 0.00173494627394
+Epoch  100,  Train error:  1.66%,  Test error:  6.70%
+Total error: 0.00173342842936
+Epoch  101,  Train error:  1.66%,  Test error:  6.70%
+Total error: 0.00173189598713
+Epoch  102,  Train error:  1.66%,  Test error:  6.70%
+Total error: 0.00173024337505
+Epoch  103,  Train error:  1.65%,  Test error:  6.70%
+Total error: 0.00172922678262
+Epoch  104,  Train error:  1.66%,  Test error:  6.70%
+Total error: 0.0017279956683
+Epoch  105,  Train error:  1.65%,  Test error:  6.70%
+Total error: 0.001726924127
+Epoch  106,  Train error:  1.65%,  Test error:  6.70%
+Total error: 0.00172518871139
+Epoch  107,  Train error:  1.62%,  Test error:  6.70%
+Total error: 0.00172437378235
+Epoch  108,  Train error:  1.64%,  Test error:  6.70%
+Total error: 0.00172363332996
+Epoch  109,  Train error:  1.65%,  Test error:  6.65%
+Total error: 0.00172292579891
+Epoch  110,  Train error:  1.65%,  Test error:  6.70%
+Total error: 0.00172228872701
+Epoch  111,  Train error:  1.65%,  Test error:  6.70%
+Total error: 0.00172174424815
+Epoch  112,  Train error:  1.65%,  Test error:  6.70%
+Total error: 0.0017212172198
+Epoch  113,  Train error:  1.65%,  Test error:  6.70%
+Total error: 0.00172075111295
+Epoch  114,  Train error:  1.64%,  Test error:  6.70%
+Total error: 0.00172024659623
+Epoch  115,  Train error:  1.64%,  Test error:  6.70%
+Total error: 0.00171978822279
+Epoch  116,  Train error:  1.65%,  Test error:  6.70%
+Total error: 0.00171921096424
+Epoch  117,  Train error:  1.64%,  Test error:  6.70%
+Total error: 0.00171873884907
+Epoch  118,  Train error:  1.65%,  Test error:  6.70%
+Total error: 0.00171824509828
+Epoch  119,  Train error:  1.65%,  Test error:  6.65%
+Total error: 0.00171767222622
+Epoch  120,  Train error:  1.65%,  Test error:  6.65%
+Total error: 0.00171743776925
+Epoch  121,  Train error:  1.65%,  Test error:  6.65%
+Total error: 0.00171709145488
+Epoch  122,  Train error:  1.65%,  Test error:  6.65%
+Total error: 0.00171677375165
+Epoch  123,  Train error:  1.65%,  Test error:  6.65%
+Total error: 0.00171652261814
+Epoch  124,  Train error:  1.65%,  Test error:  6.65%
+Total error: 0.00171622950368
+Epoch  125,  Train error:  1.64%,  Test error:  6.65%
+Total error: 0.00171598212913
+Epoch  126,  Train error:  1.65%,  Test error:  6.65%
+Total error: 0.001715713905
+Epoch  127,  Train error:  1.65%,  Test error:  6.65%
+Total error: 0.00171549404211
+Epoch  128,  Train error:  1.65%,  Test error:  6.65%
+Total error: 0.0017153102701
+Epoch  129,  Train error:  1.65%,  Test error:  6.65%
+Total error: 0.00171513744671
+Epoch  130,  Train error:  1.65%,  Test error:  6.65%
+Total error: 0.00171496122739
+Epoch  131,  Train error:  1.65%,  Test error:  6.65%
+Total error: 0.00171481010147
+Epoch  132,  Train error:  1.65%,  Test error:  6.65%
+Total error: 0.0017146698601
+Epoch  133,  Train error:  1.64%,  Test error:  6.65%
+Total error: 0.00171454309079
+Epoch  134,  Train error:  1.64%,  Test error:  6.65%
+Total error: 0.0017144528572
+Epoch  135,  Train error:  1.64%,  Test error:  6.65%
+Total error: 0.00171434012258
+Epoch  136,  Train error:  1.64%,  Test error:  6.65%
+Total error: 0.00171424604477
+Epoch  137,  Train error:  1.64%,  Test error:  6.65%
+Total error: 0.00171415637586
+Epoch  138,  Train error:  1.64%,  Test error:  6.65%
+Total error: 0.00171407224697
+Epoch  139,  Train error:  1.64%,  Test error:  6.65%
+Total error: 0.00171398647545
+Epoch  140,  Train error:  1.64%,  Test error:  6.65%
+Total error: 0.00171391657645
+Epoch  141,  Train error:  1.64%,  Test error:  6.65%
+Total error: 0.00171387619744
+Epoch  142,  Train error:  1.64%,  Test error:  6.65%
+Total error: 0.00171380464048
+Epoch  143,  Train error:  1.64%,  Test error:  6.65%
+Total error: 0.00171376408597
+Epoch  144,  Train error:  1.64%,  Test error:  6.65%
+Total error: 0.00171371015065
+Epoch  145,  Train error:  1.64%,  Test error:  6.65%
+Total error: 0.00171366641515
+Epoch  146,  Train error:  1.64%,  Test error:  6.65%
+Total error: 0.00171361872222
+Epoch  147,  Train error:  1.64%,  Test error:  6.65%
+Total error: 0.0017135900513
+Epoch  148,  Train error:  1.64%,  Test error:  6.65%
+Total error: 0.00171355180339
+Epoch  149,  Train error:  1.64%,  Test error:  6.65%
+Total error: 0.00171351561348
+Epoch  150,  Train error:  1.64%,  Test error:  6.65%
