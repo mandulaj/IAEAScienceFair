@@ -20,23 +20,23 @@ trainer = BackpropTrainer(net, ds)
 
 print 'Untrained:'
 act = net.activate([1, 0])[0]
-print [1, 0], act, "≈", math.floor(act + 0.5)
+print [1, 0], "=>",  act, "≈", math.floor(act + 0.5)
 act = net.activate([0, 1])[0]
-print [0, 1], act, "≈", math.floor(act + 0.5)
+print [0, 1], "=>", act, "≈", math.floor(act + 0.5)
 act = net.activate([0, 0])[0]
-print [0, 0], act, "≈", math.floor(act + 0.5)
+print [0, 0], "=>",  act, "≈", math.floor(act + 0.5)
 act = net.activate([1, 1])[0]
-print [1, 1], act, "≈", math.floor(act + 0.5)
+print [1, 1], "=>", act, "≈", math.floor(act + 0.5)
 
 while trainer.train() > .001:
   pass
 
 print 'Trained:'
 act = net.activate([1, 0])[0]
-print [1, 0], act, "≈", math.floor(act + 0.5)
+print [1, 0], "=>",  act, "≈", math.floor(act + 0.5)
 act = net.activate([0, 1])[0]
-print [0, 1], act, "≈", math.floor(act + 0.5)
+print [0, 1], "=>", act, "≈", math.floor(act + 0.5)
 act = net.activate([0, 0])[0]
-print [0, 0], act, "≈", math.floor(act + 0.5)
+print [0, 0], "=>",  act, "≈", math.floor(act + 0.5)
 act = net.activate([1, 1])[0]
-print [1, 1], act, "≈", math.floor(act + 0.5)
+print [1, 1], "=>",  act, "≈", math.floor(act + 0.5)
