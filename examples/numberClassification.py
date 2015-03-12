@@ -4,8 +4,9 @@ from struct import unpack
 import gzip
 from numpy import zeros, uint8, ravel
 import numpy as np
-from matplotlib import pyplot as plt
 import math
+from matplotlib import pyplot as plt
+
 
 from pylab import imshow, show, cm
 
@@ -21,6 +22,7 @@ from argparse import ArgumentParser
 import os.path
 import cPickle as pickle
 import idx2numpy as inp
+
 
 def get_labeled_data(picklename, samples):
     """Read input-vector (image) and target class (label, 0-9) and return
