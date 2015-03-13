@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 import Tkinter as tk
 import numpy as np
 from matplotlib import pyplot as plt
