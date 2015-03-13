@@ -62,8 +62,8 @@ class ImageGenerator:
         probs = net.activate(data.flatten())
         num = np.argmax(probs)
         print "Guessed: %d" % num + " with certainty %.5f" % probs[num]
-        plt.imshow(data)
-        plt.show()
+        #plt.imshow(data)
+        #plt.show()
 
     def saveImg(self):
         processImage(self.image).save(args.img)
