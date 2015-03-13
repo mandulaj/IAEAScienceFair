@@ -6,7 +6,7 @@ from numpy import zeros, uint8, ravel
 import numpy as np
 import math
 from matplotlib import pyplot as plt
-
+import csv
 
 from pylab import imshow, show, cm
 
@@ -60,7 +60,7 @@ def visualizeData(data):
 
 
 def classify(data, split, HIDDEN_NEURONS, MOMENTUM, WEIGHTDECAY,
-             LEARNING_RATE, LEARNING_RATE_DECAY, EPOCHS, ldnetwork):
+             LEARNING_RATE, LEARNING_RATE_DECAY, EPOCHS, ldnetwork, logFileName):
     INPUT_FEATURES = data['images'].shape[1] * data['images'].shape[2]
     print("Input features: %i" % INPUT_FEATURES)
     CLASSES = 10
@@ -87,6 +87,7 @@ def classify(data, split, HIDDEN_NEURONS, MOMENTUM, WEIGHTDECAY,
                               verbose=True, weightdecay=WEIGHTDECAY,
                               learningrate=LEARNING_RATE,
                               lrdecay=LEARNING_RATE_DECAY)
+    log = []
     for i in range(EPOCHS):
         trainer.trainEpochs(1)
         trnresult = percentError(trainer.testOnClassData(),
@@ -95,6 +96,11 @@ def classify(data, split, HIDDEN_NEURONS, MOMENTUM, WEIGHTDECAY,
                                  dataset=tstdata), tstdata['class'])
 
         print "Epoch %4d" % trainer.totalepochs + ",  Train error: %5.2f%%" % trnresult + ",  Test error: %5.2f%%" % tstresult
+        if logFileName:
+          log.append([trnresult, tstresult])
+          with open(logFileName, "wb") as f:
+            writer = csv.writer(f)
+            writer.writerows(log)
     return net
 
 if __name__ == '__main__':
@@ -131,9 +137,12 @@ if __name__ == '__main__':
     parser.add_argument("-ln", metavar="LOADNET", type=str, dest="ldnet",
                         default="",
                         help="load a pre-trained network from a file")
-    parser.add_argument("-v", metavar="LOADNET", type=bool, dest="visualize",
+    parser.add_argument("-v", metavar="VISUALIZE", type=bool, dest="visualize",
                         default=False,
-                        help="load a pre-trained network from a file")
+                        help="visualize a sample of 100 images")
+    parser.add_argument("-log", metavar="LOG", type=str, dest="log",
+                        default="",
+                        help="save the progress into a log file")
     args = parser.parse_args()
 
     print ""
@@ -161,6 +170,6 @@ if __name__ == '__main__':
       visualizeData(data)
     print("Got %i datasets." % len(data['images']))
     net = classify(data, args.split, args.hidden_neurons, args.momentum,
-             args.weightdecay, args.learning_rate, args.lrdecay, args.epochs, ldnetwork)
+             args.weightdecay, args.learning_rate, args.lrdecay, args.epochs, ldnetwork, args.log)
 
     NetworkWriter.writeToFile(net, args.file)
