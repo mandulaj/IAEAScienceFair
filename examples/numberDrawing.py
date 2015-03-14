@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 import Tkinter as tk
 import numpy as np
 from PIL import Image, ImageDraw ,ImageFilter, ImageOps

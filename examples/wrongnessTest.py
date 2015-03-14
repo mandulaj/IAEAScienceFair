@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 import numpy as np
 import idx2numpy as i2np
 from matplotlib import pyplot as plt
