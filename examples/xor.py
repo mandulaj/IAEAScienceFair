@@ -29,6 +29,7 @@ act = net.activate([1, 1])[0]
 print [1, 1], "=>", act, "≈", math.floor(act + 0.5)
 
 c = 0
+print "Starting training..."
 while trainer.train() > .001:
   c += 1
 

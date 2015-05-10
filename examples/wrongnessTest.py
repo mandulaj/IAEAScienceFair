@@ -42,7 +42,7 @@ for i in xrange(len(imgs)):
   guess = np.argmax(probs)
   if guess != labels[i]:
     count += 1
-    print "Wrong guess: %d" % guess, "Right value: %d" % labels[i]
+    print "Network guess: %d" % guess, "Actual value: %d" % labels[i]
     if args.visual:
       print probs
       plt.imshow(imgs[i])
