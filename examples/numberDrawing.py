@@ -8,6 +8,7 @@ from pybrain.tools.xml.networkreader import NetworkReader
 from matplotlib import pyplot as plt
 from argparse import ArgumentParser
 
+import imgtools
 
 def processImage(img):
     return img.filter(ImageFilter.BLUR).resize((28,28)).convert('L')
@@ -66,6 +67,7 @@ class ImageGenerator:
         print "Guessed: %d" % num + " with certainty %.5f" % probs[num]
         #plt.imshow(data)
         #plt.show()
+        imgtools.imgCenter(data)
 
     def saveImg(self):
         processImage(self.image).save(args.img)
